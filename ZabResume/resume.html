@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Resume</title>
     <style>
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -14,55 +15,92 @@
             background-size: cover;
             background-image: url(resumebg.png);
         }
+
         header {
-            background-color: #002897;
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55,56,172,1) 52%, rgba(29,32,88,1) 73%, rgba(9,5,56,1) 90%);
             color: #fff;
-            padding: 20px 0;
+            padding: 20px;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+
+        .header-image {
+            height: 150px; 
+            width: auto;
+            margin-right: 20px;
+            margin-left: -10%;
+        }
+
+        .header-content {
+            text-align: left;
+        }
+
+        h1 { /*h1 in header*/
+            margin: 0; 
+        }
+
+        p { /*p in header*/
+            margin-top: 5px; 
+            margin-bottom: 0; 
+        }
+
         .container {
             max-width: 800px;
+            height: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
         }
+
         h1, h2, h3 {
             margin-top: 0;
         }
+
         .section {
             margin-bottom: 20px;
         }
+
         .section h2 {
             border-bottom: 1px solid #ccc;
             padding-bottom: 5px;
             margin-bottom: 10px;
         }
+
         .section p {
             margin: 5px 0;
         }
 
          .school {
-        margin-left: -2px;
-        font-style: italic;
+            margin-left: -2px;
+            font-style: italic;
         }
 
         .award {
-        margin-left: -2px;
-        font-style: italic;
+            margin-left: -2px;
+            font-style: italic;
         }
+
     </style>
+
 </head>
 <body>
     <header>
-        <h1>Zabdiel Jairus F. Tumang</h1>
-        <p>Information Technology Student</p>
+        <img src="zabformalpic.jpg" alt="Your Image" class="header-image">
+        <div class="header-content">
+            <h1>Zabdiel Jairus F. Tumang</h1>
+            <p>Information Technology Student</p>
+        </div>
     </header>
+    
     <div class="container">
         <div class="section">
             <h2>ABOUT ME</h2>
-            <p>I am a passionate student web developer with expertise in both Front-End and Back-End Development. I have a keen interest in creating responsive and user-friendly websites, applications and databases.</p>
+            <p>I am a dedicated student web developer proficient in both Front-End and Back-End Development. I am passionate about creating user-friendly websites and applications, focusing on responsiveness and functionality. My goal is to continuously enhance my skills and contribute to impactful digital projects.</p>
         </div>
         <div class="section">
             <h2>SKILLS</h2>
@@ -73,7 +111,7 @@
                 <li>Flutter Applications</li>
                 <li>Android Studio Applications</li>
                 <li>MsSQL, MySQL</li>
-                <li>Knowledgeable in hardware components of a Computer and in different Microsoft Applications</li>
+                <li>Knowledgeable in hardware components of a Computer and different Microsoft Applications</li>
             </ul>
         </div>
         <div class="section">
@@ -101,19 +139,20 @@
                   <span class="award">(National University - Manila, 2024)</span>
                 </li>
               </ul>
-              
-        </div>
-        <div class="section">
-            <h2>CAREER</h2>
-            <p>Dsjdjaks - Position (Date)</p>
-            <p>ACHIEVEMENTS</p>
+              <ul>
+              <li><b>Consistent Dean's First Honor List</b></li>
+                  <span class="award">(National University - Manila, 2024)</span>
+                </li>
+              </ul>
+
         </div>
         <div class="section">
             <h2>CONTACT</h2>
             <p>Email: zabdieljairus@gmail.com</p>
             <p>Phone: 09162531646</p>
-            <p>Website: <a href="https://www.yourwebsite.com">zabsite.com</a></p>
+            <p>Website: <a href="https://www.zabsamplewebsite.com">zabsamplewebsite.com</a></p>
         </div>
+
     </div>
 </body>
 </html>
